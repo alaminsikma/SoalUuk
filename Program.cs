@@ -52,7 +52,7 @@ inputHari = Console.ReadLine();
 Console.Write("Masukkan umur : ");
 inputUmur = int.Parse(Console.ReadLine());
 
-if (inputHari == "Sabtu" || inputHari == "Minggu")
+if (inputHari.ToLower() == "Sabtu" || inputHari == "Minggu")
 {
     kenaikan = 10000;
 }
